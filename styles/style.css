@@ -336,10 +336,6 @@
     grid-auto-flow: column;
   }
 
-  .cover-description {
-    margin-top: 51px;
-  }
-
   .card__list {
     grid-column-start: 2;
     grid-column-end: 4;
