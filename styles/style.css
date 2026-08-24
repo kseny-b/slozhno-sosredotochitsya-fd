@@ -160,6 +160,11 @@
   gap: 10px;
 }
 
+.subclauses {
+  display: grid;
+  row-gap: 20px;
+}
+
 .gallery {
   display: grid;
   gap: 10px;
@@ -267,11 +272,6 @@
     grid-column-end: 3;
   }
 
-  .card__list_subclauses {
-    grid-column-start: 2;
-    grid-column-end: auto;
-  }
-
   .gallery {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -344,6 +344,11 @@
   .card__list_wide {
     grid-template-columns: repeat(3, 1fr);
     grid-column-start: 1;
+  }
+
+  .subclauses {
+    grid-column-start: 2;
+    grid-column-end: 4;
   }
 
   .gallery {
